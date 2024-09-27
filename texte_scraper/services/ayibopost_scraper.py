@@ -48,7 +48,6 @@ urls = [
     "https://ayibopost.com/foutbol-fe-lang-kreyol-la-vin-pi-rich/",
     "https://ayibopost.com/lagrandyab-ak-lang-pep-souvren/",
     "https://ayibopost.com/lang-kreyol-la-sibi-anpil-diskriminasyon-nan-medya-an-ayiti/",
-    "https://ayibopost.com/lang-kreyol-la-sibi-anpil-diskriminasyon-nan-medya-an-ayiti/",
     "https://ayibopost.com/rezososyo-ap-demantibile-lang-kreyol-la-an-menm-tan-se-yon-bel-opotinite/",
     "https://ayibopost.com/8-lang/",
     "https://ayibopost.com/ayibopost-lanse-operasyon-ozetazini/"

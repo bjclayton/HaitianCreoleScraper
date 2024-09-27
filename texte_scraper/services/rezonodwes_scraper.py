@@ -21,7 +21,7 @@ class TexteScraper:
             categorie = ""
             etiquettes = ""
 
-            titre = soup.find("h1", class_="entry-title").text.strip()
+            # titre = soup.find("h1", class_="entry-title").text.strip()
             date_publication = soup.find("time", class_="entry-date").text.strip()
 
             categorie = [el.text.strip()

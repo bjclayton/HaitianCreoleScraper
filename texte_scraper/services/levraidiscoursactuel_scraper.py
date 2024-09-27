@@ -40,9 +40,6 @@ class TexteScraper:
             return None
 
 
-# scraper = TexteScraper("https://levraidiscoursactuel.com/2013/01/21/pwodiksyon-sekirite-gouvenen-ak-demokrasi-dezyem-pati/#")
-# print(scraper.scrape())
-
 urls = [
     "https://levraidiscoursactuel.com/2013/01/07/pwodiksyon-sekirite-gouvenen-ak-demokrasitwa-gwo-wol-sitwayen-yo-ansanm-ak-twa-gwo-moso-pouvwa-yo/",
     "https://levraidiscoursactuel.com/2013/01/07/pwodiksyon-sekirite-gouvenen-ak-demokrasitwa-gwo-wol-sitwayen-yo-ansanm-ak-twa-gwo-moso-pouvwa-yo-2/",

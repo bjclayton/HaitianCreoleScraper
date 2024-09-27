@@ -25,7 +25,7 @@ class TexteScraper:
                 "a", class_="entry__meta-category").text.strip()
             date_publication = soup.find(
                 "li", class_="entry__meta-date").text.strip()
-            titre = soup.find("h1", class_="thumb-entry-title").text.strip()
+            # titre = soup.find("h1", class_="thumb-entry-title").text.strip()
 
             div_content = soup.find("div", class_="entry__article")
             if div_content:
@@ -33,7 +33,7 @@ class TexteScraper:
                     contenu += p_tag.text.strip()
 
             text = Texte(titre, auteur, source, date_publication,
-                    contenu, categorie, etiquettes)
+                         contenu, categorie, etiquettes)
             return text
         else:
             return None
